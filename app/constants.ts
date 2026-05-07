@@ -65,3 +65,5 @@ export const GALLERY_IMAGES = [
   "https://lh3.googleusercontent.com/gps-cs-s/APNQkAErfROj1uPC5S8XzZNLJjYkBnR9-7mveKJZEhUfpLuagXrIkPViMLNUUNj_rqmUwIBrBBpaN8hV5YdSeVcoZ_zMnaMSt5WE1Y9gexHkof6ogosb9Ehhtcx2qAn0c-kr0-A8QysE77UiBwaS=s1360-w1360-h1020-rw",
   "https://lh3.googleusercontent.com/p/AF1QipMUqy6QSeVkFglL8DL1mFg-fI-QXH4UBr8-AzQs=s1360-w1360-h1020-rw",
 ];
+
+export const SITE_URL = "https://delhiscrapdealer.com";

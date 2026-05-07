@@ -17,8 +17,8 @@ export default function AboutPage() {
         dangerouslySetInnerHTML={{
           __html: JSON.stringify(
             breadcrumbSchema([
-              { name: "Home", url: "https://sonuscrap.com" },
-              { name: "About Us", url: "https://sonuscrap.com/about" },
+              { name: "Home", url: "https://delhiscrapdealer.com" },
+              { name: "About Us", url: "https://delhiscrapdealer.com/about" },
             ])
           ),
         }}

@@ -15,9 +15,11 @@ export default function HomePage() {
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema(faqs)) }} />
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema([
-        { name: "Home", url: "https://sonuscrap.com" }
-      ])) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{
+        __html: JSON.stringify(breadcrumbSchema([
+          { name: "Home", url: "https://delhiscrapdealer.com" }
+        ]))
+      }} />
       <Home />
     </>
   );

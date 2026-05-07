@@ -17,8 +17,8 @@ export default function ServicesPage() {
         dangerouslySetInnerHTML={{
           __html: JSON.stringify(
             breadcrumbSchema([
-              { name: "Home", url: "https://sonuscrap.com" },
-              { name: "Services", url: "https://sonuscrap.com/services" },
+              { name: "Home", url: "https://delhiscrapdealer.com" },
+              { name: "Services", url: "https://delhiscrapdealer.com/services" },
             ])
           ),
         }}

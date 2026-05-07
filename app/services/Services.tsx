@@ -2,6 +2,7 @@
 
 import { motion } from "framer-motion";
 import { MessageCircle, Construction, Zap, Package, BookOpen, Monitor, Armchair, Building2 } from "lucide-react";
+import Image from "next/image";
 import { SCRAP_CATEGORIES, BUSINESS_INFO } from "../constants";
 
 const ICON_MAP: Record<string, any> = {
@@ -21,14 +22,14 @@ export default function Services() {
         title="Our Services - Metal, Paper, Plastic & E-Waste Pickup"
         description="Explore recycling services by Sonu Scrap Dealer. We buy Iron, Copper, Aluminum, Brass, Old Newspapers, Office E-waste, and more with instant payment and honest weighing."
       /> */}
-      <section className="py-24 bg-slate-50">
+      <section id="hero" className="py-24 bg-slate-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center text-slate-900">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
           >
-            <h1 className="text-brand-600 font-semibold mb-4 uppercase tracking-widest text-sm">Scrap Recycling Services in Delhi</h1>
-            <h2 className="text-4xl md:text-6xl font-bold mb-8">What We Buy & Recycle</h2>
+            <p className="text-brand-600 font-semibold mb-4 uppercase tracking-widest text-sm">Scrap Recycling Services in Delhi</p>
+            <h1 className="text-4xl md:text-6xl font-bold mb-8">What We Buy & Recycle</h1>
             <p className="text-xl text-slate-600 max-w-3xl mx-auto leading-relaxed">
               We specialize in multiple scrap categories, providing professional collection and best-in-market pricing for residential and commercial needs.
             </p>
@@ -44,9 +45,11 @@ export default function Services() {
               return (
                 <div key={category.id} className="card group border-slate-200 overflow-hidden flex flex-col h-full">
                   <div className="aspect-video w-full overflow-hidden relative">
-                    <img 
+                    <Image 
                       src={category.image} 
-                      alt={category.title} 
+                      alt={`Recycle ${category.title} - Sonu Scrap Dealer Delhi`} 
+                      width={600}
+                      height={400}
                       className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
                     />
                     <div className="absolute top-4 right-4 w-12 h-12 bg-white/90 backdrop-blur-sm rounded-xl flex items-center justify-center text-brand-600 shadow-lg">
@@ -75,12 +78,12 @@ export default function Services() {
         </div>
       </section>
 
-      <section className="py-24 bg-slate-50">
+      <section id="safety" className="py-24 bg-slate-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="bg-white rounded-[3rem] p-12 border border-slate-100 shadow-xl overflow-hidden relative">
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
               <div>
-                <h3 className="text-3xl font-bold mb-8 text-red-600">Materials We Don't Buy</h3>
+                <h2 className="text-3xl font-bold mb-8 text-red-600">Materials We Don't Buy</h2>
                 <p className="text-slate-600 mb-10 leading-relaxed">
                   As responsible recyclers, for safety and legal reasons, we generally do not accept the following items. Please check before scheduling.
                 </p>
@@ -109,11 +112,11 @@ export default function Services() {
         </div>
       </section>
 
-      <section className="py-24 bg-white">
+      <section id="areas" className="py-24 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
-            <h2 className="text-brand-600 font-semibold mb-3 uppercase tracking-widest text-sm">Service Area</h2>
-            <h3 className="text-4xl font-bold">Where We Operate</h3>
+            <p className="text-brand-600 font-semibold mb-3 uppercase tracking-widest text-sm">Service Area</p>
+            <h2 className="text-4xl font-bold">Where We Operate</h2>
           </div>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
              {[
@@ -135,7 +138,7 @@ export default function Services() {
         </div>
       </section>
       
-      <section className="py-24 bg-brand-50">
+      <section id="business-inquiry" className="py-24 bg-brand-50">
          <div className="max-w-7xl mx-auto px-4 text-center">
             <h2 className="text-3xl font-bold mb-6">Need bulk clearance for your office or factory?</h2>
             <p className="text-slate-600 mb-10 text-lg">We provide expert dismantling and site clearance for large commercial properties.</p>

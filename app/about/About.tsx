@@ -9,7 +9,7 @@ export default function About() {
     <div className="pt-20">
       {/* SEO removed — handled by page.tsx */}
 
-      <section className="py-24 bg-slate-50">
+      <section id="story" className="py-24 bg-slate-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
             <motion.div
@@ -17,8 +17,8 @@ export default function About() {
               animate={{ opacity: 1, x: 0 }}
               transition={{ duration: 0.6 }}
             >
-              <h1 className="text-brand-600 font-semibold mb-4 uppercase tracking-widest text-sm">About Sonu Scrap Dealer</h1>
-              <h2 className="text-4xl md:text-5xl font-bold mb-8 leading-tight">Serving Delhi with Honesty for over 10 Years</h2>
+              <p className="text-brand-600 font-semibold mb-4 uppercase tracking-widest text-sm">About Sonu Scrap Dealer</p>
+              <h1 className="text-4xl md:text-5xl font-bold mb-8 leading-tight">Serving Delhi with Honesty for over 15 Years</h1>
               <div className="space-y-6 text-lg text-slate-600 leading-relaxed">
                 <p>
                   Sonu Scrap Dealer started with a simple belief: recycling should be rewarding, easy, and transparent. Over the last decade, we have grown into one of Model Town's most trusted scrap collection services.
@@ -43,7 +43,7 @@ export default function About() {
             <div className="relative">
               <Image
                 src={GALLERY_IMAGES[1]}
-                alt="Business Founder"
+                alt="Sonu Scrap Dealer Founder and Team - Delhi's Trusted Scrap Buyer"
                 width={600}
                 height={750}
                 className="rounded-3xl shadow-2xl relative z-10 w-full aspect-4/5 object-cover"
@@ -54,7 +54,7 @@ export default function About() {
         </div>
       </section>
 
-      <section className="py-24 bg-white">
+      <section id="mission" className="py-24 bg-white">
         <div className="max-w-4xl mx-auto px-4 text-center">
           <h2 className="text-3xl font-bold mb-12">Our Mission & Values</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
@@ -74,7 +74,7 @@ export default function About() {
         </div>
       </section>
 
-      <section className="py-24 bg-slate-50">
+      <section id="impact" className="py-24 bg-slate-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex flex-col lg:flex-row gap-16 items-center">
             <div className="w-full lg:w-1/2 order-2 lg:order-1">
@@ -100,8 +100,8 @@ export default function About() {
               </div>
             </div>
             <div className="w-full lg:w-1/2 order-1 lg:order-2">
-              <h2 className="text-brand-600 font-semibold mb-3 uppercase tracking-widest text-sm">Community Impact</h2>
-              <h3 className="text-4xl font-bold mb-6">Cleaning Delhi, Building Sustainability</h3>
+              <p className="text-brand-600 font-semibold mb-3 uppercase tracking-widest text-sm">Community Impact</p>
+              <h2 className="text-4xl font-bold mb-6">Cleaning Delhi, Building Sustainability</h2>
               <p className="text-slate-600 text-lg mb-8 leading-relaxed">
                 By choosing Sonu Scrap Dealer, you aren't just selling your waste; you are contributing to a cleaner Delhi. Our efficient recycling chain reduces the burden on local landfills and saves precious natural resources.
               </p>
@@ -124,7 +124,7 @@ export default function About() {
         </div>
       </section>
 
-      <section className="py-24 bg-white border-t border-slate-100">
+      <section id="promise" className="py-24 bg-white border-t border-slate-100">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl font-bold mb-16">The Sonu Scrap Promise</h2>
           <div className="grid grid-cols-1 md:grid-cols-4 gap-8">

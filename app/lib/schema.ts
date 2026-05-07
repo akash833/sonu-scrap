@@ -1,6 +1,6 @@
 import { BUSINESS_INFO } from "../constants";
 
-const BASE_URL = "https://sonuscrap.com";
+const BASE_URL = "https://delhiscrapdealer.com";
 
 // Local Business Schema (used globally)
 export const localBusinessSchema = {
@@ -26,13 +26,13 @@ export const localBusinessSchema = {
   },
   "openingHoursSpecification": {
     "@type": "OpeningHoursSpecification",
-    "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"],
+    "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
     "opens": "08:00",
     "closes": "20:00"
   },
   "sameAs": [
-    "https://www.facebook.com/sonuscrap",
-    "https://www.instagram.com/sonuscrap"
+    "https://www.facebook.com/delhiscrapdealer",
+    "https://www.instagram.com/delhiscrapdealer"
   ],
   "priceRange": "$$",
   "areaServed": {
