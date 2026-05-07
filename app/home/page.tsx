@@ -1,6 +1,6 @@
-import { generatePageMetadata } from "./lib/metadata";
-import { faqSchema, breadcrumbSchema } from "./lib/schema";
-import Home from "./home/Home"; // your actual Home component
+import { generatePageMetadata } from "../lib/metadata";
+import { faqSchema, breadcrumbSchema } from "../lib/schema";
+import Home from "./Home"; // your actual Home component
 
 export const metadata = generatePageMetadata({
   canonical: "/",
