@@ -9,9 +9,9 @@ export const metadata = {
     template: "%s | Sonu Scrap Dealer",
   },
   description: "Sonu Scrap Dealer is North Delhi's most trusted buyer for metal, paper, plastic, and e-waste scrap. Instant doorstep pickup and market-leading rates.",
-  keywords: ["scrap dealer", "Delhi", "recycling", "kabadiwala", "metal scrap", "e-waste"],
+  keywords: ["scrap dealer", "Ac scrap buyer", "best scrap dealer in Delhi", "Delhi", "recycling", "kabadiwala", "metal scrap", "e-waste"],
   verification: {
-    google: "google-site-verification-id",
+    google: "Q-xDL7vQl5o3uslf5azs_m0mwpkQz3aoGQANaNbYai4",
   },
   openGraph: {
     type: "website",
